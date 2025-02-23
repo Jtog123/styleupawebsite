@@ -1,0 +1,89 @@
+.body-class {
+    background-color: bisque;
+}
+
+.header-class {
+    background-color: cornflowerblue;
+}
+
+.nav-class {
+    background-color: darkblue;
+    color:yellow;
+}
+
+.nav-link-class {
+    color:yellow;
+    font-weight: bold;
+}
+
+.text-class {
+    color:darkblue;
+    font-weight: bold;
+}
+
+.section-title-class {
+    color: crimson;
+}
+
+.image-class {
+    border: 4px solid black;
+}
+
+.form-class {
+    color: black;
+}
+
+.button-class {
+    color: crimson;
+}
+
+.footer-class {
+    background-color: cornflowerblue;
+    color:black;
+}
+
+
+/* --------- Media queries ---------- */
+
+@media screen and (max-width: 768px) {
+    .nav-class {
+        display: flex;
+        flex-direction:column;
+        text-align:center;
+    }
+    .nav-link-class {
+        margin: 5px 0;
+    }
+    .image-class {
+        max-width:80%;
+    }
+    .text-class {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header-class {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .nac-class {
+        font-size: 14px;
+    }
+
+    .image-class {
+        max-width: 90%;
+
+    }
+
+    .section-title-class {
+        font-size: 18px;
+    }
+
+    .input-class {
+        max-width: 100%;
+    }
+
+    .button-class {
+        width: 100%;
+    }
+}
